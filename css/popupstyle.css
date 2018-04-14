@@ -1,3 +1,23 @@
 body {
+    color: white;
+    background-color: #1f1e22;
     min-width:300px;
+    border-radius: 5px;
+}
+
+div, p{
+    margin: 3px;
+}
+
+p{
+    color: gray;
+}
+
+h1, h2, h3{
+    margin: 3px;
+}
+
+#footer {
+    margin-top: 15px;
+    color: gray;
 }

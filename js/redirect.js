@@ -5,5 +5,3 @@ chrome.extension.onRequest.addListener(function(request, sender){
     }
     
 });
-
-// popupにある設定を取得する
