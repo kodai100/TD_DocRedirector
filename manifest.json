@@ -3,17 +3,17 @@
     "version": "1.0",
     "description": "Redirects 088 documents to 099",
     "icons": {
-        "16": "images/icon/kodai.png",
-        "48": "images/icon/kodai.png",
-        "128": "images/icon/kodai.png"
+        "16": "images/icon/td.png",
+        "48": "images/icon/td.png",
+        "128": "images/icon/td.png"
     },
     "background": { 
         "scripts": ["js/redirect.js"]
     },
     "browser_action": {
         "default_icon": {
-            "19": "images/icon/kodai.png",
-            "38": "images/icon/kodai.png"
+            "19": "images/icon/td.png",
+            "38": "images/icon/td.png"
         },
         "default_title": "TouchDesigner Doc Redirector",
         "default_popup": "popup.html"
