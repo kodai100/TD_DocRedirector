@@ -8,7 +8,15 @@
         "128": "images/icon/kodai.png"
     },
     "background": { 
-        "page":"bg.html"
+        "scripts": ["js/redirect.js"]
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon/kodai.png",
+            "38": "images/icon/kodai.png"
+        },
+        "default_title": "TouchDesigner Doc Redirector",
+        "default_popup": "popup.html"
     },
     "manifest_version": 2,
         "content_scripts": [
@@ -17,5 +25,5 @@
             "js": ["js/content.js"]
         }
     ],
-    "permissions": ["tabs"]
+    "permissions": ["tabs", "background"]
   }
