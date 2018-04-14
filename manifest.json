@@ -1,0 +1,21 @@
+{
+    "name": "TouchDesigner Doc Redirector",
+    "version": "1.0",
+    "description": "Redirects 088 documents to 099",
+    "icons": {
+        "16": "images/icon/kodai.png",
+        "48": "images/icon/kodai.png",
+        "128": "images/icon/kodai.png"
+    },
+    "background": { 
+        "page":"bg.html"
+    },
+    "manifest_version": 2,
+        "content_scripts": [
+        {
+            "matches": ["https://www.derivative.ca/*", "http://www.derivative.ca/*"],
+            "js": ["js/content.js"]
+        }
+    ],
+    "permissions": ["tabs"]
+  }
